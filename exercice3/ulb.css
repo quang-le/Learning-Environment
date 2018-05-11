@@ -17,8 +17,10 @@ img {
 }
 .summary{
     border: 2px solid blue;
-    background-color: white;
-    opacity: 0.7;
+   
+}
+.background {
+    background-color: #fff9;
 }
 
 #citation {
@@ -32,7 +34,9 @@ p.motto {
 }
 .contact {
     margin: auto;
-    width: 50%;
+    width: 32%;
+    height: 50%;
+   
 }
 .smallcaps {
     font-variant: small-caps;
@@ -40,12 +44,19 @@ p.motto {
 }
 
 body {
-    background: url(https://upload.wikimedia.org/wikipedia/commons/8/83/Clock_Tower_of_the_ULB_Solbosch_Campus_in_the_City_of_Brussels.JPG);
+    background: url(https://upload.wikimedia.org/wikipedia/commons/8/83/Clock_Tower_of_the_ULB_Solbosch_Campus_in_the_City_of_Brussels.JPG) no-repeat;
     background-size: cover;
 
 }
 
-#ULB{
-  color:blue;
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe {
+    background-color: #fff9;
+    padding: 15px;
 }
 
