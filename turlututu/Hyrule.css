@@ -1,0 +1,107 @@
+@font-face {
+  font-family:HyliaSerif;
+  src:url(HyliaSerifBeta-Regular.otf);
+}
+@font-face{
+  font-family:HylianSymbols;
+  src:url(HylianSymbols.ttf);
+}
+.black {
+  background-color:black;
+}
+.darkgreen {
+  background-color: rgb(83,111,80);
+}
+.lightgreen{
+  background-color: rgb(146,197,130);
+}
+.yellowish{
+  background-color: rgb(253,255,224);
+}
+.greenFont{
+  color:Sienna;
+}
+.mainTitle{
+  font-family:HyliaSerif;
+}
+body{
+  color:white;
+  font-family: Arial, sans-serif;
+}
+li{
+  list-style-type: none;
+  outline: 1px solid green;
+}
+a {
+  text-decoration: none;
+  color:white;
+  outline: 1px solid blue;
+}
+img {
+  display: block;
+  width:50%;
+  outline: 1px solid red;
+  margin:auto;
+}
+span{
+  font-family: HylianSymbols, sans-serif;
+}
+h2{
+  margin-top:0;
+  margin-bottom:0;
+}
+ul{
+  margin-top:0;
+  margin-bottom:0;
+}
+.navBar{
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  margin:0;
+  padding:0;
+  padding-top:0.75em;
+  padding-bottom:0.75em;
+}
+.navLogo{
+  width:10%;
+  margin-right:0.5em;
+}
+.navLogin{
+  margin-left: 60vw;
+}
+.navLink{
+  margin-left:0.5em;
+  margin-right:0.5em;
+}
+.mainTitle{
+  text-align:center;
+  font-weight:lighter;
+
+}
+.button.darkgreen{
+  display:block;
+  border:1px solid rgb(253,255,224);
+  border-radius: 1em;
+  padding-top:0.2em;
+  padding-bottom: 0.2em;
+  padding-left:0.3em;
+  padding-right:0.3em;
+  text-align:center;
+  width:15%;
+}
+.main{
+  background: url(linkthumbup.gif) no-repeat left;
+  padding: 2em;
+  background-size:contain;
+  background-position:left bottom;
+}
+.main>a{
+  margin:auto;
+}
+.slogan.yellowish{
+  color:rgb(83,111,80);
+  text-align:center;
+  padding-top:0.75em;
+  padding-bottom:0.75em;
+}
