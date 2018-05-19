@@ -13,9 +13,10 @@ body{
 }
 .mainTitle{
   font-family:HyliaSerif;
+  color:rgb(83,111,80);
 }
 span{
-  font-family: HylianSymbols, sans-serif;
+  font-family: HylianSymbols;
 }
 .features>li{
   font-size:larger;
@@ -229,12 +230,9 @@ p.moreThanaFighter{
 }
 
 @media(max-width:910px){
-.main{
-  background-position:bottom;
-}
-.mainTitle{
-  color:rgb(83,111,80);
-}
+  .main{
+    background-image:none;
+  }
 }
 @media(max-width:700px){
   .chatButton{
