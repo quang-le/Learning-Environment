@@ -42,7 +42,7 @@ span{
 .sienna{
   color:Sienna;
 }
-/*Removing some default css +some positioning for the navBars*/
+/*Removing some default css + doing some positioning for the navBars*/
 h2{
   margin-top:0;
   margin-bottom:0;
@@ -89,6 +89,9 @@ p>a{
   width:10%;
   margin-right:0.5em;
   flex:1;
+}
+.navImg{
+  width: 3em;
 }
 .navLogin{
   text-align:right;
@@ -225,6 +228,53 @@ p.moreThanaFighter{
   width:100%;
 }
 
-@media screen(max-width:910px){
-
+@media(max-width:910px){
+.main{
+  background-position:bottom;
+}
+.mainTitle{
+  color:rgb(83,111,80);
+}
+}
+@media(max-width:700px){
+  .chatButton{
+    top:90vh;
+    left:90vw;
+  }
+}
+@media(max-width:600px){
+  .button{
+    width:90px;
+  }
+  .features{
+    grid-template-areas: "effectiveTitle "
+                         "effectiveBody"
+                         "versatileTitle"
+                         "versatileBody"
+                         "silentTitle"
+                         "silentBody"
+                         "fighterTitle"
+                         "fighterBody";
+    grid-template-columns: 75%;
+    grid-template-rows: 10% 38% 10% 38%;
+    grid-row-gap: 5px;
+  }
+  .features>p{
+    padding-bottom: 10px;
+  }
+  footer>.navBar{
+    flex-direction:column;
+  }
+  .footer>.navLogin{
+    flex:1;
+  }
+  .footer>li:first-child{
+    text-align:left;
+  }
+}
+@media(max-width:500px){
+  .chatButton{
+    top:88vh;
+    left:85vw;
+  }
 }
