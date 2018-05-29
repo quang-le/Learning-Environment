@@ -1,0 +1,10 @@
+/*exercice1*/
+div{
+    outline:1px solid green;
+}
+p{
+    outline:1px solid blue;
+}
+span{
+    outline: 1px solid red;
+}
