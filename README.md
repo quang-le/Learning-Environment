@@ -14,7 +14,9 @@ Each exercise is stored in its own folder:
 * 3_charity: create a static webpage of a charity using html and css. First page built from the ground up. Included a flexbox in css as first element of responsive design. [Full instructions](https://github.com/becodeorg/lovelace-2/blob/master/Parcours/01-La-prairie/html-css/3-exercice-html-basic.md);
 * 4_Page404: create a Page404. This page was created after I completed the [progessive-enhancement](https://github.com/becodeorg/lovelace-2/tree/master/Parcours/01-La-prairie/html-css/progressive-enhancement)training. I added some animations, but didn't go far in text placement and font choice, as I wanted to move on to something new. [Full instructions](https://github.com/becodeorg/lovelace-2/blob/master/Parcours/01-La-prairie/html-css/4-exercice-404-html.md);
 * 5_responsive_design: Step by step intro to responsive design, followed by the addition of responsive elements to an [existing page](https://github.com/quang-le/html-css/tree/master/5_responsive_design/tp_final). [Full instruction](https://github.com/becodeorg/lovelace-2/tree/master/Parcours/02-Responsive%20Web%20Design);
-* 6_bootstrap: started on 29/05/2018
+* 6_bootstrap: started on 29/05/2018,finished 29/05/2018
+* restaurant-framework-css: started 29/05/2018, [instructions](https://github.com/becodeorg/lovelace-2/blob/master/Parcours/03-Bootstrap/projet.md);
+
 
 3. Coming updates to the repo
 * add [progessive-enhancement](https://github.com/becodeorg/lovelace-2/tree/master/Parcours/01-La-prairie/html-css/progressive-enhancement);
