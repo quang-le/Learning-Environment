@@ -1,0 +1,104 @@
+@font-face {
+    font-family:Ring;
+    src:url(RINGM.ttf);
+}
+body{
+    /*width:100%;*/
+    background-color: rgb(255,127,76);
+}
+h1{
+    display: block;
+    width: 90%;
+    /*outline: 1px solid green;*/
+}
+a{
+    display:block;
+    /*outline: 1px solid red;*/
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    color: transparent;
+}
+p{
+    font-size:large;
+}
+@keyframes shake{
+    0%{transform:rotate(15deg);}
+    50%{transform:rotate(-15deg);}
+    100%{transform:rotate(15deg);}
+}
+@keyframes orko{
+    0%{background-color:pink;}
+    20%{background-color: palegreen;}
+    40%{background-color: orangered;}
+    60%{background-color: royalblue;}
+    80%{background-color: purple;}
+    100%{background-color: yellow;}
+}
+@keyframes floatCastle{
+    0%{top:48vh;}
+    50%{top:56vh;}
+    100%{top:48vh;}
+}
+@keyframes floatSkeletor{
+    0%{bottom: 78vh;}
+    50%{bottom:88vh;}
+    100%{bottom: 78vh;}
+}
+.container{
+    display:flex;
+    flex-direction:column;   
+    width: 10vw;
+   /* outline: 1px solid black;*/
+    float:left;
+    position:relative;
+    z-index:1;
+    font-family:Ring, sans-serif;
+}
+.castle{
+    background-image: url(https://vignette.wikia.nocookie.net/heman/images/3/33/Grayskull.jpg/revision/latest?cb=20090729111240);
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 5vw;
+    height: 5vw;
+    position:absolute;
+    top: 50vh;
+    left:16vw;
+    z-index:1;
+    animation:floatCastle 3s infinite forwards;
+}
+.snakeMountain{
+    background-image:url(https://vignette.wikia.nocookie.net/heman/images/9/9d/SnakeMountain.jpg/revision/latest/scale-to-width-down/180?cb=20110826161743);
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 5vw;
+    height: 5vw;;
+    z-index:1;
+    position: absolute;
+    bottom: 82vh;
+    left:83vw;
+    animation:floatSkeletor 3s infinite forwards;  
+}
+.orko{
+    background-image: url(Orko.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:absolute;
+    border-radius: 10em;
+    height: 100vh;
+    width: 80vw;
+    left:15vw;
+    background-color: rgb(255,127,76);
+}
+.castle:hover, .snakeMountain:hover{
+    animation: shake;
+    animation-duration:0.3s;
+    animation-iteration-count: infinite;
+}
+.orko:hover{
+    animation:orko;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.castle,.snakeMountain{
+    border-radius:100%;
+}
