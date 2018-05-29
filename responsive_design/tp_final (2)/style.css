@@ -250,7 +250,6 @@ footer h1
     font-size: 1.1em;
 }
 
-
 #tweet
 {
     width: 28%;
@@ -290,7 +289,7 @@ footer h1
     text-decoration: none;
     color: #760001;
 }
-@media screen and (max-width:800px){
+/*@media screen and (max-width:800px){
     header{
         outline:1px solid blue;
         position:relative;
@@ -367,7 +366,7 @@ footer h1
     article h1{
         font-size: 1.3em;
     }
-    footer{
+    /*footer{
         flex-direction: column;
     }
     #tweet,#mes_amis{
