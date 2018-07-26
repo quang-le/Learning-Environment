@@ -1,9 +1,15 @@
 # HTML-CSS
 
 *created by Son on 08/05/2018 as the **Learning Environment** repo*
-*last update on 29/05/2018:*
-* update repo name to HTML-CSS
-* change folder structure for more clarity
+
+- *last update 26/07/2018:*
+*migrated repos with Bootstrap, SASS and integration exercises as CSS-Framework, SASS and Tim Berners-Lee folders respectively*
+*deleted 3 branches that had no more use*
+
+
+- *update 29/05/2018:*
+*update repo name to HTML-CSS*
+*change folder structure for more clarity*
 
 1. Description:
 Repo to store html and css exercises for the BeCode training
@@ -19,6 +25,12 @@ Each exercise is stored in its own folder:
 
 
 3. Coming updates to the repo
+
+- The 3 following repos are currently used as Github pages. Once I've sorted outand set up a hosting solution, they will be integrated to this repo
+
 * add [progessive-enhancement](https://github.com/becodeorg/lovelace-2/tree/master/Parcours/01-La-prairie/html-css/progressive-enhancement);
-* add [Tim Berners-Lee exercise](https://github.com/quang-le/Tim_Berners-Lee);
+* add the [one-page challenge](https://github.com/quang-le/filrouge-0-guerilla)
+* add the [css animation challenge](https://github.com/quang-le/css-animation-drill)
+
+- update and clarify folder structure
 
